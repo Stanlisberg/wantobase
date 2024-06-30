@@ -5,7 +5,7 @@ import ReactPlayer from "react-player/youtube";
 
 export default function Home() {
   return (
-    <main className="w-full mx-auto max-w-full border border-red">
+    <main className="w-full mx-auto max-w-full">
       <div className="mt-[70px] flex flex-col justify-center lg:flex-row gap-1 items-center">
         <Image
           src="https://res.cloudinary.com/drtzfu730/image/upload/v1719708744/68b4f8dd395c4d75bae7a21f1e3046e8_vgkssa.png"
@@ -323,20 +323,32 @@ export default function Home() {
         />
         <div className="Main text-[60px] font-[800]">$WAT</div>
         <div className="flex flex-row gap-5">
-          <Image
-            src="https://res.cloudinary.com/drtzfu730/image/upload/v1719727178/7a856d1a17bcc4cc5f0db8fbe4069f78_lnzpab.png"
-            width={14}
-            height={14}
-            alt="US-flag"
-            className="Image w-[48px] h-[48px] object-contain"
-          />
-          <Image
-            src="https://res.cloudinary.com/drtzfu730/image/upload/v1719727548/48048dfe2c4cde7327f2d50578fa2b64_pbzvrp.png"
-            width={14}
-            height={14}
-            alt="US-flag"
-            className="Image w-[48px] h-[48px] object-contain"
-          />
+          <a
+            href="https://t.me/watonbasectotg"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="https://res.cloudinary.com/drtzfu730/image/upload/v1719727178/7a856d1a17bcc4cc5f0db8fbe4069f78_lnzpab.png"
+              width={14}
+              height={14}
+              alt="US-flag"
+              className="Image w-[48px] h-[48px] object-contain"
+            />
+          </a>
+          <a
+            href="https://twitter.com/watonbasecto"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="https://res.cloudinary.com/drtzfu730/image/upload/v1719727548/48048dfe2c4cde7327f2d50578fa2b64_pbzvrp.png"
+              width={14}
+              height={14}
+              alt="US-flag"
+              className="Image w-[48px] h-[48px] object-contain"
+            />
+          </a>
         </div>
         <div className="hidden md:block w-full text-center text-[13px] font-[800]">
           <p>
@@ -350,7 +362,7 @@ export default function Home() {
         </div>
         <p className="md:hidden text-center text-[13px] font-[800]">
           $WAT coin has no association with Matt Furie or his creation &quot;The
-          Night Riders&quot;.  This token is ​simply paying homage to a beloved
+          Night Riders&quot;. This token is ​simply paying homage to a beloved
           meme we all love and recognize. contact@watonBase.com
         </p>
       </div>
