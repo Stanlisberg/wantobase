@@ -18,36 +18,54 @@ export default function Home() {
           <span className="text-[100px] lg:text-[150px] text-center flex justify-center items-center">
             $WAT
           </span>
-          <div className=" text-[16px] lg:text-[21px] flex flex-col gap-2">
+          <div className="text-[16px] lg:text-[21px] flex flex-col gap-2">
             <p>Is on a mission to take over the base</p>
-            <p> universe. The time has come for wat to</p>{" "}
+            <p> universe. The time has come for wat to</p>
             <p> show his greateness.</p>
             <p className="text-[12px] font-bold">
-              CA:0x9E8CEfDD5b2b29275e34Da24F33cab8EbEb56541
+              CA: 0x9E8CEfDD5b2b29275e34Da24F33cab8EbEb56541
             </p>
           </div>
           <div className="mt-4 flex flex-row justify-center gap-3 items-center w-[70%] lg:w-[50%] px-6 py-1 border-[#ffffff] border-4 rounded-[40px] bg-[#10acdb]">
-            <Image
-              src="https://res.cloudinary.com/drtzfu730/image/upload/v1719727178/7a856d1a17bcc4cc5f0db8fbe4069f78_lnzpab.png"
-              width={14}
-              height={14}
-              alt="US-flag"
-              className="w-[50px] h-[50px]  object-contain cursor-pointer"
-            />
-            <Image
-              src="https://res.cloudinary.com/drtzfu730/image/upload/v1719727548/48048dfe2c4cde7327f2d50578fa2b64_pbzvrp.png"
-              width={14}
-              height={14}
-              alt="US-flag"
-              className="w-[50px] h-[50px]  object-contain cursor-pointer"
-            />
-            <Image
-              src="https://res.cloudinary.com/drtzfu730/image/upload/v1719727496/138eb1bc53a408258a96f9ee347d15c4_d5lc4k.png"
-              width={14}
-              height={14}
-              alt="US-flag"
-              className="w-[50px] h-[50px] object-contain cursor-pointer"
-            />
+            <a
+              href="https://t.me/watonbasectotg"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="https://res.cloudinary.com/drtzfu730/image/upload/v1719727178/7a856d1a17bcc4cc5f0db8fbe4069f78_lnzpab.png"
+                width={14}
+                height={14}
+                alt="US-flag"
+                className="w-[50px] h-[50px]  object-contain cursor-pointer"
+              />
+            </a>
+            <a
+              href="https://twitter.com/watonbasecto"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="https://res.cloudinary.com/drtzfu730/image/upload/v1719727548/48048dfe2c4cde7327f2d50578fa2b64_pbzvrp.png"
+                width={14}
+                height={14}
+                alt="US-flag"
+                className="w-[50px] h-[50px]  object-contain cursor-pointer"
+              />
+            </a>
+            <a
+              href="https://dexscreener.com/base/0x557A7C975165A522dE32872CD4e2BdF22d8B8C57"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="https://res.cloudinary.com/drtzfu730/image/upload/v1719727496/138eb1bc53a408258a96f9ee347d15c4_d5lc4k.png"
+                width={14}
+                height={14}
+                alt="US-flag"
+                className="w-[50px] h-[50px] object-contain cursor-pointer"
+              />
+            </a>
           </div>
           {/* <div></div> */}
           {/* </div> */}
@@ -67,31 +85,12 @@ export default function Home() {
             </p>
             <div>MATT FURIE</div>
             <p>
-              Well, the main dude is a chilled-out frog. The frog’s little buddy
-              is a rat, but many will mistake him for a mouse. Rats are smarter
-              than mice and domesticated rats are vert sweet creatures. The rat
-              is inspired by my pet rat “Wat”. Wat loved to lick me and was very
-              cute.
+              Well, the main dude is a chilled-out frog. The frog&apos;s little
+              buddy is a rat, but many will mistake him for a mouse. Rats are
+              smarter than mice and domesticated rats are vert sweet creatures.
+              The rat is inspired by my pet rat &quot;Wat&quot;. Wat loved to
+              lick me and was very cute.
             </p>
-            {/* <p>
-              Rats have always played a part in Matt Furie’s life. Owning two
-              ​Rats one of them being Wat, Rats have been featured in and
-              ​inspired a lot of Furie’s work. In his glorious book debut
-              Niteriders, a nocturnal frog and rat ​strike out on an epic
-              dirtbike adventure towards the sunrise.
-            </p>
-            <p>
-              According to Furie Rats are really smart—they remind him of ​small
-              dogs. They know their names, respond to calls, have ​individual
-              personalities, and are really sweet he would ​recommend having a
-              pet rat to anyone interested.
-            </p>
-            <p>
-              To honor Matt Furies love for Rats, Wat his pet is now reborn on
-              ​the blockchain alongside other Furie creations taking inspiration
-              ​from his early Rat illustrations in Niteriders which Furie quoted
-              ​were inspired by Wat in a interview in Comicsbeat.
-            </p> */}
           </div>
           <Image
             src="https://res.cloudinary.com/drtzfu730/image/upload/v1719729657/32db70a6b4bd4058b3b5f996771b5085_ohq7mz.png"
@@ -106,7 +105,7 @@ export default function Home() {
       <div className="mx-auto border-2 border-dashed border-[#ffffff] w-[85%] md:[75%]"></div>
       <div className="px-4 lg:px-16 mt-4">
         <h1 className="flex font-bold justify-center items-center text-center text-[35px] lg:text-[100px]">
-          Matt Furie's pet rat
+          Matt Furie&apos;s pet rat
         </h1>
         <div className="lg:h-[100%] lg:w-[100%] flex justify-center items-center mt-4 lg:mt-0 ">
           <ReactPlayer
@@ -214,8 +213,8 @@ export default function Home() {
               <h1 className="text-[28px] font-[800]">Get Some Eth</h1>
               <div className="hidden md:block text-[12px] lg:text-[13px] font-[800]">
                 <p>
-                  Have ETH in your wallet to switch to $​WAT. If you don’t have
-                  any ETH, you ca​n
+                  Have ETH in your wallet to switch to $​WAT. If you don&apos;t
+                  have any ETH, you ca​n
                 </p>
                 <p>
                   {" "}
@@ -228,8 +227,8 @@ export default function Home() {
                 </p>
               </div>
               <p className="lg:hidden text-center text-[12px] lg:text-[13px] font-[800]">
-                Have ETH in your wallet to switch to $​WAT. If you don’t have
-                any ETH, you ca​n buy directly on metamask, transfer from
+                Have ETH in your wallet to switch to $​WAT. If you don&apos;t
+                have any ETH, you ca​n buy directly on metamask, transfer from
                 another wallet, or buy on anothe​r exchange and send it to your
                 wallet​.
               </p>
@@ -253,7 +252,7 @@ export default function Home() {
                 <p>
                   {" "}
                   ​inside your Metamask app. Connect your wallet. Paste the
-                  $​DADDY token
+                  $​WAT token
                 </p>
                 <p>
                   {" "}
@@ -285,8 +284,8 @@ export default function Home() {
               <h1 className="text-[28px] font-[800]">Switch ETH for $WAT</h1>
               <div className="hidden md:block text-[13px] font-[800]">
                 <p>
-                  Switch ETH for $​WAT. We have ZERO taxes so you don’t need to
-                  worry abou​t{" "}
+                  Switch ETH for $​WAT. We have ZERO taxes so you don&apos;t
+                  need to worry abou​t
                 </p>
                 <p>
                   buying with a specific slippage, although you may need to use
@@ -295,9 +294,9 @@ export default function Home() {
                 <p className="text-center">​times of market volatility​.</p>
               </div>
               <p className="md:hidden text-center text-[12px] font-[800]">
-                Switch ETH for $​WAT. We have ZERO taxes so you don’t need to
-                worry abou​t buying with a specific slippage, although you may
-                need to use slippage durin​g times of market volatility​.
+                Switch ETH for $​WAT. We have ZERO taxes so you don&apos;t need
+                to worry abou​t buying with a specific slippage, although you
+                may need to use slippage durin​g times of market volatility​.
               </p>
             </div>
           </div>
@@ -341,8 +340,8 @@ export default function Home() {
         </div>
         <div className="hidden md:block w-full text-center text-[13px] font-[800]">
           <p>
-            $WAT coin has no association with Matt Furie or his creation “The
-            Night Riders”. This token is ​
+            $WAT coin has no association with Matt Furie or his creation
+            &quot;The Night Riders&quot;. This token is ​
           </p>
           <p>
             simply paying homage to a beloved meme we all love and recognize.
@@ -350,9 +349,9 @@ export default function Home() {
           <p>contact@watonBase.com</p>
         </div>
         <p className="md:hidden text-center text-[13px] font-[800]">
-          $WAT coin has no association with Matt Furie or his creation “The
-          Night Riders”. This token is ​simply paying homage to a beloved meme
-          we all love and recognize. contact@watonBase.com
+          $WAT coin has no association with Matt Furie or his creation &quot;The
+          Night Riders&quot;.  This token is ​simply paying homage to a beloved
+          meme we all love and recognize. contact@watonBase.com
         </p>
       </div>
     </main>
