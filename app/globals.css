@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,26 +9,40 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #38b6ff;
+  color: #fff;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.Main {
+  /* font-family: YACgEblklxo-0;
+  border: 1px solid black; */
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
 }
+
+.AboutText {
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  text-align: justify;
+}
+
+.Token {
+  font-weight: 800;
+  font-style: normal;
+  text-align: justify;
+}
+
+.Token h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+/* .Image {
+  filter: invert(100%);
+} */
