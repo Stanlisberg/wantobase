@@ -21,7 +21,7 @@ export default function Home() {
           <div className="text-[16px] lg:text-[21px] flex flex-col gap-2">
             <p>Is on a mission to take over the base</p>
             <p> universe. The time has come for wat to</p>
-            <p> show his greateness.</p>
+            <p> show his greatness.</p>
             <p className="text-[12px] font-bold">
               CA: 0x9E8CEfDD5b2b29275e34Da24F33cab8EbEb56541
             </p>
