@@ -77,19 +77,20 @@ export default function Home() {
         <h1 className="flex justify-center items-center text-[120px]">About</h1>
         <div className="flex w-full flex-col lg:flex-row justify-center gap-6 items-center">
           <div className="AboutText text-[16px] lg:text-[20px] flex flex-col gap-6">
+            {/* <div>THE BEAT</div> */}
             <p>
-              THE BEAT: The creatures in Night Riders are unquestionably
+              THE BEAT: &quot;The creatures in Night Riders are unquestionably
               peculiar, how would you describe some of the characters? One of
               them looks like an almost rat/bat hybrid. How do you go about
-              constructing these creatures?
+              constructing these creatures?&quot;
             </p>
-            <div>MATT FURIE</div>
+            {/* <div>MATT FURIE</div> */}
             <p>
-              Well, the main dude is a chilled-out frog. The frog&apos;s little
-              buddy is a rat, but many will mistake him for a mouse. Rats are
-              smarter than mice and domesticated rats are vert sweet creatures.
-              The rat is inspired by my pet rat &quot;Wat&quot;. Wat loved to
-              lick me and was very cute.
+              MATT FURIE: &quot;Well, the main dude is a chilled-out frog. The
+              frog&apos;s little buddy is a rat, but many will mistake him for a
+              mouse. Rats are smarter than mice and domesticated rats are vert
+              sweet creatures. The rat is inspired by my pet rat
+              &quot;Wat&quot;. Wat loved to lick me and was very cute.&quot;
             </p>
           </div>
           <Image
@@ -313,7 +314,7 @@ export default function Home() {
       </div>
       <div className="mx-auto border-2 border-dashed border-[#ffffff] w-[85%] md:[75%]"></div>
       <div className="mx-auto border-2 border-dashed border-[#ffffff]  w-[85%] md:[75%]"></div>
-      <div className="flex flex-col justify-center gap-1 items-center my-3">
+      <div className="flex flex-col justify-center gap-1 items-center my-5">
         <Image
           src="https://res.cloudinary.com/drtzfu730/image/upload/v1719752687/ca2dd99eb6efc95ad3e4d3cf51e71cbd_rpkcof.png"
           width={14}
@@ -358,12 +359,11 @@ export default function Home() {
           <p>
             simply paying homage to a beloved meme we all love and recognize.
           </p>
-          <p>contact@watonBase.com</p>
         </div>
         <p className="md:hidden text-center text-[13px] font-[800]">
           $WAT coin has no association with Matt Furie or his creation &quot;The
           Night Riders&quot;. This token is ​simply paying homage to a beloved
-          meme we all love and recognize. contact@watonBase.com
+          meme we all love and recognize.
         </p>
       </div>
     </main>
