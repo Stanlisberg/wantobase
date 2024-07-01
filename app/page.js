@@ -129,7 +129,7 @@ export default function Home() {
         <div className="Token text-[20px] lg:text-[30px] flex flex-col text-center gap-2 bg-[#BBB131]  py-3 px-6 mx-4 rounded-[30px]">
           <h1>Tokenomics</h1>
           <div className="text-center text-[17px] lg:text-[29px]">
-            <p>Token Supply: 420,690B</p>
+            <p>Token Supply: 1 Billion</p>
             <p> No Taxes Forever, No None Sense,</p>
             <p> LP Tokens Burned & Contract</p>
             <p> Ownership Renounced</p>
